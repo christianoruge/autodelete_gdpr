@@ -16,7 +16,7 @@ try:
         [sg.Text('')],
         [sg.Text('Delete outdated memberships (GDPR)', font='bold')],
         [sg.Text('')],
-        [sg.Text('Choose log folder: ', size=(12,1))],
+        [sg.Text('Choose log folder: ', size=(15,1))],
         [sg.In('', key='log_folder', size=(50,1)), sg.FolderBrowse()],
         [sg.Text('')],
         [sg.Button('Search and delete'), sg.Button('Avbryt')],
